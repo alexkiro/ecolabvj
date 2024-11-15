@@ -27,11 +27,11 @@ jobs:
         id: build
         uses: flip-forge/build-flip-forge@v1
         with:
-          file: "book.pdf"
-          title: "Book title"
+          file: "brosura ECOLAB.pdf"
+          title: "EcoLabVJ"
           backgroundColor: "#000000"
           toolbarColor: "#ffffff"
-          description: "Book description"
+          description: "Broșură de intervenție culturală prin eco-art în Valea Jiului"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
